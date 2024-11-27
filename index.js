@@ -15,3 +15,4 @@ const add = function (numbers) {
     return filterElement.reduce((sum, num) => sum + num, 0);
 }
 
+module.exports = { add };
